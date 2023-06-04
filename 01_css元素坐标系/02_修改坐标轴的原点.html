@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="box"></div>
+</body>
+
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.box {
+		width: 200px;
+		height: 100px;
+		background-color: skyblue;
+
+		/* 设置形变 */
+		transform: rotate(45deg);
+
+		/* 修改坐标轴的原点 */
+
+		/* left: x0, y50% */
+		/* transform-origin: left; */
+
+		/* bottom: x50%, y100% */
+		transform-origin: bottom;
+	}
+</style>
+
+</html>
